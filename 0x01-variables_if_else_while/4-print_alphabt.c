@@ -10,13 +10,11 @@ int main(void)
 	char alph[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	int i;
-	_Bool check;
 
 	for (i = 0; i < 26; i++)
 	{
-		check = (alph[i] != 'e') && (alph[i] != 'q');
 
-		if (check)
+		if ((alph[i] != 'e') && (alph[i] != 'q'))
 			putchar(alph[i]);
 	}
 	putchar('\n');
