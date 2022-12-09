@@ -4,8 +4,8 @@
 /**
  * main - Starting point
  * Return: 0
- * Description: I sometimes suffer from insomnia. And when I can't fall asleep,
- *  I play what I call the alphabet game
+ * Description: Prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line.
  */
 int main(void)
 {
@@ -13,8 +13,12 @@ int main(void)
 
 	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 
+	char alphaCased[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 	for (i = 0; i < 26; ++i)
 		putchar(alpha[i]);
+	for (i = 0; i < 26 ; ++i)
+		putchar(alphaCased[i]);
 	putchar('\n');
 
 	return (0);
