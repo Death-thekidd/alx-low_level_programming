@@ -11,3 +11,5 @@ A function that checks for lowercase character.
 A function that checks for alphabetic character.
 ## 5-sign.c
 A function that prints the sign of a number.
+## 6-abs.c
+A function that computes the absolute value of an integer.
