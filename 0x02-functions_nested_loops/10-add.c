@@ -4,7 +4,7 @@
 * @a: The integer to add
 * @b: The integer to add
 *
-* Return: The addition of a and b 
+* Return: The addition of a and b
 */
 int add(int a, int b)
 {
