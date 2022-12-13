@@ -1,7 +1,6 @@
 #include "main.h"
 /**
 * times_table - checks for lowercase character.
-* @c: The character to check
 *
 * Return: 1 if c is lowercase and 0 otherwise
 */
@@ -19,7 +18,7 @@ void times_table(void)
 			if (k < 10)
 			{
 				_putchar(' ');
-                         	_putchar(' ');
+				_putchar(' ');
 				_putchar(k + '0');
 			} else
 			{
