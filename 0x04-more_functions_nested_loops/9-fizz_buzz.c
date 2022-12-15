@@ -26,9 +26,9 @@ int main(void)
 			else
 				printf("%cBuzz", space);
 		}
-		else if (i == 0)
+		else if (i == 1)
 		{
-			printf("%d%c", i, space);
+			printf("%d", i);
 		}
 		else
 		{
