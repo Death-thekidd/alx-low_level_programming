@@ -21,3 +21,7 @@ A function that prints a square, followed by a new line.
 A C program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 ## 10-print_triangle.c
 A function that prints a triangle, followed by a new line.
+## 100-prime_factor.c
+A C program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+## 101-print_number.c
+A function that prints an integer.
