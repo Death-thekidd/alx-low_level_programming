@@ -3,4 +3,4 @@
 
 int _isupper(int);
 
-#endif /* _main_h_ */
+#endif
