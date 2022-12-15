@@ -11,24 +11,28 @@ int main(void)
 
 	for (i = 1; i < 101; i++)
 	{
-		space = (i == 100) ? 0 : 32;
+		space = 32;
 		if ((i % 3) == 0)
 		{
 			if ((i % 5) == 0)
-				printf("FizzBuzz%c", space);
+				printf("%cFizzBuzz", space);
 			else
-				printf("Fizz%c", space);
+				printf("%cFizz", space);
 		}
 		else if ((i % 5) == 0)
 		{
 			if ((i % 3) == 0)
-				printf("FizzBuzz%c", space);
+				printf("%cFizzBuzz", space);
 			else
-				printf("Buzz%c", space);
+				printf("%cBuzz", space);
+		}
+		else if (i == 0)
+		{
+			printf("%d%c", i, space);
 		}
 		else
 		{
-			printf("%d%c", i, space);
+			printf("%c%d", space, i);
 		}
 	}
 	printf("\n");
