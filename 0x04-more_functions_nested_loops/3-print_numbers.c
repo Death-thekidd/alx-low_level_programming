@@ -6,7 +6,7 @@
 *
 * Return: void
 */
-int _isupper(int c)
+void print_numbers(void)
 {
 	int i;
 
