@@ -5,3 +5,5 @@ A function that takes a pointer to an int as parameter and updates the value it 
 A function that swaps the values of two integers.
 ## 2-strlen.c
 A function that returns the length of a string.
+## 3-puts.c
+A function that prints a string, followed by a new line, to stdout.
