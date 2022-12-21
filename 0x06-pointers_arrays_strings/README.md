@@ -11,3 +11,5 @@ A function that compares two strings.
 A function that reverses the content of an array of integers.
 ## 5-string_toupper.c
 A function that changes all lowercase letters of a string to uppercase.
+## 6-cap_string.c
+A function that capitalizes all words of a string.
