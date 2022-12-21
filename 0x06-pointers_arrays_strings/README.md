@@ -13,3 +13,5 @@ A function that reverses the content of an array of integers.
 A function that changes all lowercase letters of a string to uppercase.
 ## 6-cap_string.c
 A function that capitalizes all words of a string.
+## 7-leet.c
+A function that encodes a string into 1337.
