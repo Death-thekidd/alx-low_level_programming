@@ -11,6 +11,7 @@ char *cap_string(char *str)
 	char cc;
 
 	int sep[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+
 	count = sizeof(sep) / sizeof(int);
 
 	if (*(str + 0) > 96 && *(str + 0) < 123)
