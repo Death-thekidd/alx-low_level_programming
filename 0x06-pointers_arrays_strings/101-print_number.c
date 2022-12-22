@@ -7,16 +7,18 @@
 */
 void print_number(int n)
 {
-	int div, c;
+	unsigned int n1 div, c;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		n *= -1;
+		n1 = n * -1;
 	}
+	else
+		n1 = n;
 
-	for (div = n, c = 1; div > 9; div /= 10, c *= 10)
+	for (div = n1, c = 1; div > 9; div /= 10, c *= 10)
 		;
 	for (; c >= 1; c /= 10)
-		_putchar(((n / c) % 10) + 48);
+		_putchar(((n1 / c) % 10) + 48);
 }
