@@ -7,7 +7,7 @@
 */
 void print_number(int n)
 {
-	unsigned int n1 div, c;
+	unsigned int n1, div, c;
 
 	if (n < 0)
 	{
@@ -15,7 +15,9 @@ void print_number(int n)
 		n1 = n * -1;
 	}
 	else
+	{
 		n1 = n;
+	}
 
 	for (div = n1, c = 1; div > 9; div /= 10, c *= 10)
 		;
