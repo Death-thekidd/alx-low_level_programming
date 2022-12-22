@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * infinite_add - adds two numbers
-* @n1: number 
+* @n1: number
 * @n2: number
 * @r: buffer to store the result
 * @size_r: size of buffer
