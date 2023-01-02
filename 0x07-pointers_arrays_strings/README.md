@@ -17,3 +17,5 @@ A function that prints the chessboard.
 A function that prints the sum of the two diagonals of a square matrix of integers.
 ## 100-set_string.c
 A function that sets the value of a pointer to a char.
+## 101-crackme_password
+A file that contains the password for the crackme2 executable.
