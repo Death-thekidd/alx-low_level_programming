@@ -13,3 +13,7 @@ A function that searches a string for any of a set of bytes.
 A function that locates a substring.
 ## 7-print_chessboard.c
 A function that prints the chessboard.
+## 8-print_diagsums.c
+A function that prints the sum of the two diagonals of a square matrix of integers.
+## 100-set_string.c
+A function that sets the value of a pointer to a char.
