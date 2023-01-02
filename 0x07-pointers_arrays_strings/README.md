@@ -9,3 +9,5 @@ A function that locates a character in a string.
 A function that gets the length of a prefix substring.
 ## 4-strpbrk.c
 A function that searches a string for any of a set of bytes.
+## 5-strstr.c
+A function that locates a substring.
