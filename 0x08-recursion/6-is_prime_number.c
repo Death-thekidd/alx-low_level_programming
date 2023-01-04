@@ -16,7 +16,7 @@ int is_prime_number(int n)
 	j = n < 0 ? -n : n;
 	if (j == 1)
 		return (0);
-	return (primeCheck(j, 2));
+	return (primeCheck(n, 2));
 }
 
 /**
@@ -30,7 +30,7 @@ int primeCheck(int n, int m)
 {
 	if (m == n)
 		return (1);
-	if (n % m == 0)
+	if ((n % m == 0) || n < 0)
 		return (0);
 	return (0 + primeCheck(n, m + 1));
 }
