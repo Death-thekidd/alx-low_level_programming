@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - check the length of 
+ * _strlen_recursion - check the length of a String
  * @s: String
  *
  * Return: Always 0.
