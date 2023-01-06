@@ -7,3 +7,5 @@
 > A program that prints all arguments it receives.
 ## 3-mul.c
 > A program that multiplies two numbers.
+## 4-add.c
+> A  program that adds positive numbers.
