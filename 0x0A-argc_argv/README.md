@@ -9,3 +9,5 @@
 > A program that multiplies two numbers.
 ## 4-add.c
 > A  program that adds positive numbers.
+## 100-change.c
+> A program that prints the minimum number of coins to make change for an amount of money.
