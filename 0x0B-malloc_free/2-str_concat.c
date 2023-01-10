@@ -15,21 +15,34 @@ char *str_concat(char *s1, char *s2)
 	char *cat;
 
 	if (s1 == NULL)
-		s1 = "0";
-	if (s1 == NULL)
-		s2 = "0";
-	for (i = 0; s1[i] != 0; i++)
-		;
-	for (j = 0; s2[j] != 0; j++)
-		;
+		i = 0;
+	else
+	{
+		for (i = 0; s1[i] != 0; i++)
+			;
+	}
+	if (s2 == NULL)
+		j = 0;
+	else
+	{
+		for (j = 0; s2[j] != 0; j++)
+			;
+	}
 	sum = i + j + 1;
 	cat = malloc(sizeof(*s1) * sum);
 	if (cat == NULL)
 		return (NULL);
-	for (i = 0, k = 0; s1[i] != 0; i++, k++)
-		cat[k] = s1[i];
-	for (j = 0; s2[j] != 0; j++, k++)
-		cat[k] = s2[j];
-	cat[k] = s2[j];
+	k = 0;
+	if (s1 != NULL)
+	{
+		for (i = 0, k = 0; s1[i] != 0; i++, k++)
+			cat[k] = s1[i];
+	}
+	if (s2 == NULL)
+	{
+		for (j = 0; s2[j] != 0; j++, k++)
+			cat[k] = s2[j];
+	}
+	cat[sum - 1] = 0;
 	return (cat);
 }
