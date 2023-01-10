@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 		for (i = 0, k = 0; s1[i] != 0; i++, k++)
 			cat[k] = s1[i];
 	}
-	if (s2 == NULL)
+	if (s2 != NULL)
 	{
 		for (j = 0; s2[j] != 0; j++, k++)
 			cat[k] = s2[j];
