@@ -6,3 +6,5 @@
     age, type = float
     owner, type = char *
 ```
+## 1-init_dog.c
+> A function that initialize a variable of type struct dog
