@@ -5,7 +5,7 @@
  * @head: head structure
  * @idx: index to add the node at
  * @n: data for the node
- * 
+ *
  * Return: addres of the new node on sucess else NULL
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)

@@ -1,10 +1,10 @@
 # include "lists.h"
 
 /**
- * 7-get_nodeint.c - returns the nth node of a listint_t linked list.
+ * get_nodeint_at_index - returns the nth node of a listint_t linked list.
  * @head: head node.
  * @index:  index of the node, starting at 0
- * 
+ *
  * Return: node
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
@@ -21,10 +21,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	{
 		if (current->next == NULL)
 			return (NULL);
-		else
-		{
-			current = current->next;
-		}
+		current = current->next;
 	}
 	return (current);
 }
