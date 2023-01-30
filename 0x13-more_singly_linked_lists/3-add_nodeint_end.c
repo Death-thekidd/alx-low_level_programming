@@ -23,7 +23,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (*head);
 	}
 	add = *head;
-	add_s->next  = NULL; 
+	add_s->next  = NULL;
 	for (; add->next != NULL; add = add->next)
 		;
 	add->next = add_s;
