@@ -35,3 +35,7 @@
 ## 10-delete_nodeint.c
 
 > A function that deletes the node at index index of a listint_t linked list.
+
+## 101-print_listint_safe.c
+
+> A function that prints a listint_t linked list.
