@@ -29,8 +29,7 @@ unsigned int binary_to_uint(const char *b)
 
 		if (b[len] & 1)
 		{
-			ui += bas
-			e_two;
+			ui += base_two;
 		}
 	}
 
