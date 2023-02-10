@@ -10,18 +10,21 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int val;
-	ssize_t i;
+	ssize_t r, wri, op;
 	char *buffer, *buf;
 
-	buffer = malloc(letters);
-	val = open(filename, O_RDONLY, 0666);
-	if (!val || buffer == NULL)
+	buffer = malloc(sizeof(char) * letters);
+	if (buffer == NULL)
 		return (0);
-	read(val, buffer, letters);
-	for (i = 0, buf = buffer; *buf != 0; buf++, i++)
-		printf("%c", *buf);
-	close(val);
+	op = open(filename, O_RDONLY);
+	r = read(op, buffer, letters);
+	wri = write(STDOUT_FILENO, buffer, r);
+	if (!op || !r || !wri || wri != r)
+	{
+		free(buffer);
+		return (0);
+	}
+	close(op);
 	free(buffer);
 	return (i);
 }
