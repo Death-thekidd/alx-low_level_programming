@@ -9,7 +9,14 @@ int _sqrt(int n, int m);
 */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n, n));
+	if (n < 0)
+		return (-1);
+	if (n == 0)
+		return (0);
+	if (n == 1)
+		return (1);
+
+	return (_sqrt(n, 2));
 }
 
 /**
@@ -21,14 +28,12 @@ int _sqrt_recursion(int n)
 */
 int _sqrt(int n, int m)
 {
-	int sqrt;
-
-
-	if ((n * n) == m)
-		return (n);
-	if ((n == 1) || (n < 0))
-		return (-1);
-	sqrt = _sqrt(n - 1, m);
-
-	return (sqrt);
+	if (m % (n / m) == 0)
+	{
+		if (m * (n / m) == n)
+			return (m);
+		else
+			return (-1);
+	}
+		return (0 + _sqrt(n, m + 1));
 }
