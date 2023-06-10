@@ -3,7 +3,7 @@
  * amount of money.
  * @argc: number of arguments
  * @argv: arguments passes
- * 
+ *
  * Return: 0
 */
 

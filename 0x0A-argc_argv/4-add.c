@@ -2,7 +2,7 @@
  * main - adds positive numbers.
  * @argc: number of arguments
  * @argv: arguments passes
- * 
+ *
  * Return: 0
 */
 

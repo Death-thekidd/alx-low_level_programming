@@ -2,7 +2,7 @@
  * main - prints all arguments it receives.
  * @argc: number of arguments
  * @argv: arguments passes
- * 
+ *
  * Return: 0
 */
 
