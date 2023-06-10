@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define UNUSED(argc) (void)(argc)
 
 /**
  * main - prints all arguments it receives.
@@ -10,6 +11,7 @@
 
 int main(int argc, char **argv)
 {
+	UNUSED(argc);
 	while (*argv != NULL)
 	{
 		printf("%s\n", *argv);

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define UNUSED(argc) (void)(argc)
 
 /**
  * main - prints it's name followed by a new line.
@@ -10,7 +11,7 @@
 
 int main(int argc, char **argv)
 {
+	UNUSED(argc);
 	printf("%s\n", argv[0]);
-
 	return (0);
 }
