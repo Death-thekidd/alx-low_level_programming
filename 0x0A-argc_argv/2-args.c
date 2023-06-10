@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	while (*argv != NULL)
 	{
 		printf("%s\n", *argv);
-		argv = argv + 1; 
+		argv = argv + 1;
 	}
 
 	return (0);
