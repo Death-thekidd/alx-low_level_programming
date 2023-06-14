@@ -22,7 +22,7 @@ char *argstostr(int ac, char **av)
 		nwlm++
 	}
 	chlnt++;
-	concat = malloc(malloc(sizeof(char) * (chlnt + nwlm)));
+	concat = malloc(sizeof(char) * (chlnt + nwlm));
 	if (concat == NULL)
 		return (NULL);
 	k = 0;
