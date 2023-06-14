@@ -98,7 +98,7 @@ char **allocate_memory(char *str, int num_words)
 */
 char *get_next_word(char *str)
 {
-	static char *current = NULL;
+	static char *current;
 	char *start;
 	char *end;
 
