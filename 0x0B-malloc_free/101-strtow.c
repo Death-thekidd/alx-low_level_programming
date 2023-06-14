@@ -100,7 +100,7 @@ char *get_next_word(char *str)
 	static char *current;
 	char *start;
 	char *end;
-	char *word
+	char *word;
 
 	if (str != NULL)
 		current = str;
