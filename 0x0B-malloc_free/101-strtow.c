@@ -1,7 +1,7 @@
 #include "main.h"
 
 int count_words(char *str);
-char **allocate_memory(char *str, int num_words);
+char **allocate_memory(int num_words);
 char *get_next_word(char *str);
 char *trim_spaces(char *str);
 
@@ -23,7 +23,7 @@ char **strtow(char *str)
 	str = trim_spaces(str);
 
 	num_words = count_words(str);
-	words = allocate_memory(str, num_words);
+	words = allocate_memory(num_words);
 
 	if (words == NULL)
 		return (NULL);
@@ -73,12 +73,11 @@ int count_words(char *str)
 
 /**
  * allocate_memory - allocates memory for a two dimensional string
- * @str: string to count characters from
  * @num_words: number of words
  *
  * Return: the memory allocated
 */
-char **allocate_memory(char *str, int num_words)
+char **allocate_memory(int num_words)
 {
 	char **words = malloc((num_words + 1) * sizeof(char *));
 
