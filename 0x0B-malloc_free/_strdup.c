@@ -6,7 +6,7 @@
  *
  * Return: the copy of the string
 */
-char *__strdup(char *str)
+char *_strdup(char *str)
 {
 	int i, size;
 	char *arr;
