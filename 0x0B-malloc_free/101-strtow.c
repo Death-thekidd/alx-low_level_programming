@@ -100,6 +100,7 @@ char *get_next_word(char *str)
 	static char *current;
 	char *start;
 	char *end;
+	char *word
 
 	if (str != NULL)
 		current = str;
@@ -117,7 +118,7 @@ char *get_next_word(char *str)
 
 	end = current - 1;
 
-	char *word = malloc((end - start + 1) * sizeof(char));
+	word = malloc((end - start + 1) * sizeof(char));
 
 	if (word == NULL)
 		return (NULL);
