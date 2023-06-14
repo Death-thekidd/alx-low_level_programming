@@ -9,7 +9,7 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	int i, f, size, l1, l2, ttl;
+	int i, f, l1, l2, ttl;
 	char *concat, *verif1, *verif2;
 
 	verif1 = __strdup(s1), verif2 = __strdup(s2);
