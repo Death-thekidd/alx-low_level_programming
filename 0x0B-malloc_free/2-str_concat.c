@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 		;
 	l2 = i;
 	ttl = l1 + l2 + 1;
-	concat = malloc(sizeof(char) * tt1);
+	concat = malloc(sizeof(char) * ttl);
 	for (i = 0; verif1[i] != '\0'; i++)
 		concat[i] = verif1[i];
 	for (f = 0; verif2[f] != '\0'; f++, i++)
