@@ -28,8 +28,10 @@ char *str_concat(char *s1, char *s2)
 	for (f = 0; verif2[f] != '\0'; f++, i++)
 		concat[i] = verif2[f];
 	concat[i] = '\0';
-	free(verif1);
-	free(verif2);
+	if (*verif1 != '\0')
+		free(verif1);
+	if (*verif2 != '\0')
+		free(verif2);
 	return (concat);
 }
 
