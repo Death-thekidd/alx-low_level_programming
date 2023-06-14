@@ -17,7 +17,7 @@ char **strtow(char *str)
 	char *word;
 	char **words;
 
-	if (str == NULL || *str == '\0')
+	if (str == NULL || *str == '\0' || count_words(str) <= 0)
 		return (NULL);
 
 	str = trim_spaces(str);
