@@ -19,7 +19,7 @@ char *argstostr(int ac, char **av)
 	{
 		for (j = 0; av[i][j] != '\0'; j++, chlnt++)
 			;
-		nwlm++
+		nwlm++;
 	}
 	chlnt++;
 	concat = malloc(sizeof(char) * (chlnt + nwlm));
