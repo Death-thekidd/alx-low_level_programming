@@ -10,7 +10,7 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i, f, l1, l2, ttl, n_chk;
+	unsigned int i, f, l1, l2, ttl, n_chk;
 	char *concat, *verif1, *verif2;
 
 	verif1 = __strdup(s1), verif2 = __strdup(s2);
