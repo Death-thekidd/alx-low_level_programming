@@ -2,6 +2,8 @@
 #define _dog_h_
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 
 typedef struct dog dog_t;
 /**
