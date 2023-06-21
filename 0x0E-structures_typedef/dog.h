@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+typedef struct dog dog_t;
 /**
  * struct dog - Short description
  * @name: First member
