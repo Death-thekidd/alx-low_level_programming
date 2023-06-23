@@ -2,7 +2,7 @@
 
 /**
  * print_name - prints a name
- * @namw: name to print
+ * @name: name to print
  * @f: function pointer
  *
  * Return: nothing
