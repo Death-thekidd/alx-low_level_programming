@@ -4,6 +4,7 @@
 		"stdlib.h": "c",
 		"stdio.h": "c",
 		"main.h": "c",
-		"0-object_like_macro.h": "c"
+		"0-object_like_macro.h": "c",
+		"variadic_functions.h": "c"
 	}
 }
